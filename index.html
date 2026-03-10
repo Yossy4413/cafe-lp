@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="街の喧騒を離れ、ゆったりとした時間を過ごせるコーヒースタンド「Café Lumière」の公式ウェブサイト。自家焙煎コーヒーと手作りスイーツをご用意しています。">
+    <title>Café Lumière | 日常に、ひと息の贅沢を。</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">Café Lumière</h1>
+            <nav class="global-nav">
+                <ul>
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#access">Access</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero fade-in">
+            <div class="hero-bg"></div>
+            <div class="hero-content fade-in-up">
+                <h2 class="hero-copy">日常に、ひと息の贅沢を。</h2>
+                <p class="hero-subcopy">自家焙煎コーヒーと手作りスイーツで<br>ゆったりした時間をお届けします</p>
+                <a href="#menu" class="btn btn-primary">メニューを見る</a>
+            </div>
+
+            <div class="scroll-indicator fade-in" style="transition-delay: 1.5s;">
+                <span class="scroll-text">Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Concept Section -->
+        <section id="concept" class="concept section">
+            <div class="container auto-grid">
+                <div class="concept-image fade-in-left">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1000"
+                        alt="カフェ店内の雰囲気">
+                    <div class="image-accent"></div>
+                </div>
+                <div class="concept-text fade-in-right">
+                    <h2 class="section-title">Concept<span class="ja">私たちの想い</span></h2>
+                    <p>Café Lumièreは、<br>忙しい日常の中でほっと一息つける場所を<br>コンセプトにした小さなカフェです。</p>
+                    <p>世界各地から厳選した豆を<br>店内で丁寧に焙煎し、<br>香り豊かなコーヒーをご提供しています。</p>
+                    <div class="signature">Café Lumière</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu section bg-light">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">Menu<span class="ja">おすすめメニュー</span></h2>
+                <div class="menu-grid">
+                    <!-- Menu 1 -->
+                    <div class="menu-card fade-in-up" style="transition-delay: 0.1s;">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1559598467-f8b76c8105d0?auto=format&fit=crop&q=80&w=800"
+                                alt="ハンドドリップコーヒー">
+                        </div>
+                        <div class="menu-info">
+                            <h3>ハンドドリップコーヒー</h3>
+                            <p class="desc">注文を頂いてから豆を挽き、一杯ずつ丁寧に抽出します。豆本来のフルーティーな酸味と深いコクをご堪能ください。</p>
+                            <p class="price">¥600</p>
+                        </div>
+                    </div>
+                    <!-- Menu 2 -->
+                    <div class="menu-card fade-in-up" style="transition-delay: 0.2s;">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=800"
+                                alt="カフェラテ">
+                        </div>
+                        <div class="menu-info">
+                            <h3>カフェラテ</h3>
+                            <p class="desc">濃厚なエスプレッソに、きめ細やかにスチームしたミルクを合わせました。美しいラテアートとともに。</p>
+                            <p class="price">¥650</p>
+                        </div>
+                    </div>
+                    <!-- Menu 3 -->
+                    <div class="menu-card fade-in-up" style="transition-delay: 0.3s;">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1571115177098-24edf646fdf4?auto=format&fit=crop&q=80&w=800"
+                                alt="自家製チーズケーキ">
+                        </div>
+                        <div class="menu-info">
+                            <h3>自家製チーズケーキ</h3>
+                            <p class="desc">クリームチーズをたっぷり使用した、濃厚でなめらかな口当たりのベイクドチーズケーキ。コーヒーと相性抜群です。</p>
+                            <p class="price">¥550</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section">
+            <div class="container-fluid">
+                <h2 class="section-title text-center fade-in-up">Gallery<span class="ja">店内紹介</span></h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in-up" style="transition-delay: 0.1s;">
+                        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000"
+                            alt="店内写真">
+                        <div class="gallery-caption">店内写真</div>
+                    </div>
+                    <div class="gallery-item fade-in-up" style="transition-delay: 0.2s;">
+                        <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=1000"
+                            alt="カウンター">
+                        <div class="gallery-caption">カウンター</div>
+                    </div>
+                    <div class="gallery-item fade-in-up" style="transition-delay: 0.3s;">
+                        <img src="https://images.unsplash.com/photo-1502139214982-d0ad755818d8?auto=format&fit=crop&q=80&w=1000"
+                            alt="テラス席">
+                        <div class="gallery-caption">テラス席</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Access Section -->
+        <section id="access" class="access section bg-light">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">Access<span class="ja">アクセス</span></h2>
+                <div class="access-grid">
+                    <div class="access-info fade-in-left">
+                        <div class="info-block">
+                            <h3 class="logo-small">Café Lumière</h3>
+                            <ul class="info-list">
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>東京都渋谷区〇〇 1-2-3 カフェビル1F</span>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span>営業時間 9:00〜20:00 (L.O 19:30)</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-calendar-xmark"></i>
+                                    <span>定休日 水曜</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>03-0000-0000</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="access-map fade-in-right">
+                        <!-- ダミーのGoogle Map (渋谷駅周辺) -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7479754683745!2d139.69932591525835!3d35.65851498020038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b563b00109f%3A0x337328def1e2ab26!2z5riL6LC36aeF!5e0!3m2!1sja!2sjp!4v1683000000000!5m2!1sja!2sjp"
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="cta-bg"></div>
+            <div class="container relative z-10 text-center fade-in-up">
+                <p class="cta-text">美味しいコーヒーとともに、<br>ゆったりした時間をお楽しみください。</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-large">来店予約</a>
+                    <a href="#" class="btn btn-outline btn-large">
+                        <i class="fa-brands fa-instagram"></i> Instagramを見る
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h2 class="logo-footer">Café Lumière</h2>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Café Lumière. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
